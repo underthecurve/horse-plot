@@ -46,7 +46,7 @@ ggplot(horses.mules.merged,
   scale_x_continuous(breaks = seq(40,120,20),
                      limits = c(39, 120),
                      labels = c("40k", "60k", "80k", "100k", "120k")) +
-  labs(x = "\nMedian household income (000's)", 
+  labs(x = "\nMedian household income (2017 dollars)", 
        y = "Horses* per sq. mile\n",
        title = "Equine-nomics",
        subtitle = 'a very serious scatterplot\n') +
